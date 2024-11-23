@@ -15,6 +15,7 @@ namespace text_project.Controllers
         public MovieController(IMovieRepo repo)
         {
             this.repo = repo;
+            //repo == repo
         }
         [HttpGet]
         public IActionResult GetAll()
